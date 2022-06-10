@@ -1,2 +1,3 @@
 # coding
-Learn to code repository
+**Learn to code repository**
+Sample code for experimenting and learning
