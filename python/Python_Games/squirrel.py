@@ -5,6 +5,13 @@
 
 import random, sys, time, math, pygame
 from pygame.locals import *
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 FPS = 30 # frames per second to update the screen
 WINWIDTH = 640 # width of the program's window, in pixels

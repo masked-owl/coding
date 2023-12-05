@@ -5,6 +5,13 @@
 
 import pygame, sys, random
 from pygame.locals import *
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 # Create the constants (go ahead and experiment with different values)
 BOARDWIDTH = 4  # number of columns in the board

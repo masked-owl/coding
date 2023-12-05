@@ -1,4 +1,7 @@
-﻿function Add-Numbers
+﻿# Change the current working directory to the script's directory
+Set-Location $PSScriptRoot
+
+function Add-Numbers
 {
     param([int]$n1, [int]$n2)
     $answer=$n1+$n2

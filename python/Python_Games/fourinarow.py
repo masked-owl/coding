@@ -5,6 +5,12 @@
 
 import random, copy, sys, pygame
 from pygame.locals import *
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
 
 BOARDWIDTH = 7  # how many spaces wide the board is
 BOARDHEIGHT = 6 # how many spaces tall the board is

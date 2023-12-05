@@ -5,6 +5,13 @@
 
 import random, pygame, sys
 from pygame.locals import *
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 FPS = 30 # frames per second, the general speed of the program
 WINDOWWIDTH = 640 # size of window's width in pixels

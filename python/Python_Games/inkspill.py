@@ -5,6 +5,13 @@
 
 import random, sys, webbrowser, copy, pygame
 from pygame.locals import *
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 # There are different box sizes, number of boxes, and
 # life depending on the "board size" setting selected.

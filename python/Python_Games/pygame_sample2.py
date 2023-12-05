@@ -1,4 +1,11 @@
 import pygame, sys
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 buttons = []
 class Button:

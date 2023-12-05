@@ -4,6 +4,13 @@ import pygame
 import random
 import tkinter as tk
 from tkinter import messagebox
+import os
+
+# Change to program directory
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 
 width = 500
 height = 500
